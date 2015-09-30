@@ -11,4 +11,3 @@ femaleSmokerPer=100*(sum(StudyParticipants$Gender=="F" & StudyParticipants$Smoke
 
 ifelse(maleSmokerPer>femaleSmokerPer, "Larger Percentage of Males Smoke", 
        ifelse(maleSmokerPer==femaleSmokerPer, "Equal Percentage of Males and Females Smoke", "Larger Percentage of Females Smoke"))
-
