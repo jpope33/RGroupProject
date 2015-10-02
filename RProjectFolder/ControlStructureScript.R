@@ -12,9 +12,9 @@ femaleSmokerPer=100*(sum(StudyParticipants$Gender=="F" & StudyParticipants$Smoke
 
 #if, else
 if(nrow(StudyParticipants)>10){
-  print("There are more than 10 participents in the study")
+  print("There are more than 10 participants in the study")
 }else{
-  print("There are less than or equal to 10 participents in the study")
+  print("There are less than or equal to 10 participants in the study")
 }
 
 #ifelse 
