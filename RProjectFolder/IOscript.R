@@ -20,3 +20,16 @@ capture.output(print(StudyParticipants, print.gap=3), file="/Users/jonathanpope/
 
 #Exports table as comma separated file named testCSV
 write.csv(StudyParticipants, "/Users/jonathanpope/Desktop/writeTo/testCSV.csv")
+
+#Input/Output using readline
+fun <- function() {
+  
+  name <- readline("Enter your name ")
+  age <- readline("Enter your age ")
+  smoke <- readline("Do you smoke? (yes, no) ")
+  
+  cat("Your name is ",name," and your age is", age, ". \n Smoking is a ", smoke, " for you.")
+  
+}
+
+if(interactive()) fun()
